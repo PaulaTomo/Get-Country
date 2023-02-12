@@ -17,6 +17,7 @@ body {
     background-color: rgba(0, 0, 0, 0.74);
     color: aqua;
     text-align: center;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(131, 127, 127, 0.49), 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(126, 125, 125, 0.43);
 }
 img{
     width: 100%;
