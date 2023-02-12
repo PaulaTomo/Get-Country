@@ -1,0 +1,17 @@
+{
+  "name": "project-country",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server . --port=6500 --host=localhost --entry-file=index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "live-server": "^1.2.2"
+  }
+}

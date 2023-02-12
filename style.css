@@ -1,0 +1,58 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+body {
+    position: relative;
+    background-image: url("./img/background1.jpg");
+    background-size: cover;
+}
+
+.card {
+    box-sizing: unset;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: aqua;
+    text-align: center;
+}
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#info_country{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+    width: 120px;
+    position: relative;
+    padding: 3px;
+    border-color: purple;
+
+}
+
+.btn{
+    background:linear-gradient(90deg, rgba(2, 38, 129, 0.87), rgba(255, 63, 168, 0.87), rgba(3, 59, 244, 0.89));
+    color: white;
+    border-radius:30px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+
+
+}
+.btn:hover{
+    transform: translateY(-2px);
+    color: aqua;
+
+}
+.btn:active{
+    transform: translate(-1px);
+}
+
+h5{
+    padding-bottom: 15px;
+}
