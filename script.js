@@ -32,8 +32,7 @@ const countryFull = (countryName => {
               })
         })
         .catch((error) => {
-            console.log('Whoops something is wrong',error)
-            alert('Whoops something is wrong');
+            alert('Whoops something is wrong, please write the country name in English');
     })
 })
 
